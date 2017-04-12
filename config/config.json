@@ -1,0 +1,10 @@
+{
+	"redis_paths": {
+		"errors": "OTT/errors/",
+		"messages": "OTT/messages/",
+		"handled": "OTT/messages/handled",
+		"pub": "OTT/publisher/",
+		"pub_flag": "OTT/publisher/flag",
+		"users": "OTT/users/"
+	}
+}
