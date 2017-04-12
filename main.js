@@ -5,8 +5,6 @@ var env = require('./env/env'),
 	redis = require('./lib/redis'),
 	ticker = require('./workers/ticker'),
 	manager = require('./workers/manager'),
-	// subscriber = require('./workers/subscriber'),
-	// publisher = require('./workers/publisher'),
 	log = require('./lib/log');
 
 observer.onFork();
