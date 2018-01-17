@@ -57,7 +57,7 @@ function getMessage() {
 
 function eventHandler(msg, callback){
 	function onComplete(){
-		var error = Math.random() > 0.85; 
+		var error = Math.random() > 0.95; 
 		callback(error, msg);
 	}
 
